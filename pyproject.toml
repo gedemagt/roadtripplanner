@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "roadtripplanner"
+version = "0.1.0"
+description = ""
+authors = ["Jesper Halkjær Jensen <jsjes@vestas.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+Jinja2 = "^3.1.4"
+python-multipart = "^0.0.9"
+googlemaps = "^4.10.0"
+pydantic-settings = "^2.2.1"
+polyline = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
